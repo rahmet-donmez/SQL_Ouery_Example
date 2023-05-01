@@ -1,2 +1,2 @@
 # SQL_Ouery_Example
-Patika.dev'in Sql kursundan where ve mantıksal operatörler alıştırmaları içeren sql sorguları
+Patika.dev'in Sql kursunda yapılan araştırmalarda oluşturduğum sql sorguları
