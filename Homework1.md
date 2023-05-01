@@ -12,12 +12,19 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
 5-film tablosundaki uzunluğu(length) 50 ten büyük OLMAYIP aynı zamanda rental_rate değeri 2.99 veya 4.99 OLMAYAN verileri sıralayınız.
 
 # CEVAPLAR
-1- Select title,description from public.film
 
-2- Select * from public.film where length>60 and length<70
-
-3- Select * from public.film where rental_rate=0.99 and (replacement_cost=12.99 or replacement_cost=28.99)
-
-4- Select last_name from public.customer where first_name='Mary'
-
-5- Select * from public.film where NOT length>50  and NOT (rental_rate=2.99 OR rental_rate=4.99)
+```
+ Select title,description from public.film
+```
+```
+Select * from public.film where length>60 and length<70
+```
+```
+Select * from public.film where rental_rate=0.99 and (replacement_cost=12.99 or replacement_cost=28.99)
+```
+```
+Select last_name from public.customer where first_name='Mary'
+```
+```
+Select * from public.film where NOT length>50  and NOT (rental_rate=2.99 OR rental_rate=4.99)
+```
